@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Navigation bar styling */
+.nav1 {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.head {
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Container for images */
+.pic1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Image styling */
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer; /* Show pointer on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+.pic:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+.scor{
+    display: flex;
+    /* align-items: center; */
+    gap: 80px;
+   margin-top: 10px;
+    justify-content: center; /* Horizontal center */
+  align-items: center;
+  font-size: 2rem;
+}
+#msg{
+    background-color:rgb(135, 87, 87);
+    color: #f0f0f0;
+    display: inline;
+    justify-content: center ;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+    box-shadow: 2px;
+
+}
+.msg-container{
+    margin-top: 50px;
+}
